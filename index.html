@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Build a Technical Documentation Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav id="navbar">
+            <header class="header-doc">CSS Documentation</header>
+            <a href="#introduction" class="nav-link">Introduction</a>
+            <a href="#CSS_first_steps_overview" class="nav-link">CSS First Steps Overview</a>
+            <a href="#What_is_CSS?" class="nav-link">What Is CSS?</a>
+            <a href="#Getting_started_with_CSS" class="nav-link">Getting Started With CSS</a>
+            <a href="#How_CSS_is_structured" class="nav-link">How CSS Is Structured</a>   
+            <a href="#How_CSS_works" class="nav-link">How CSS Works</a>   
+            <a href="#Using_your_new_knowledge" class="nav-link">Using Your New Knowledge</a>   
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="introduction">
+                <header class="header-main">Introduction</header>
+                <p>
+                    <strong>Introduction to HTML</strong><br>
+                    At its heart, HTML is a fairly simple language made up of elements, which can be applied to pieces of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is it part of a table?), structure a document into logical sections (Does it have a header? Three columns of content? A navigation menu?), and embed content such as images and videos into a page. This module will introduce the first two of these and introduce fundamental concepts and syntax you need to know to understand HTML.
+                    <br>
+
+                    <strong>Prerequisites</strong><br>
+                    Before starting this module, you don't need any previous HTML knowledge, but you should have at least basic familiarity with using computers and using the web passively (i.e., just looking at it and consuming content). You should have a basic work environment set up (as detailed in Installing basic software), and understand how to create and manage files (as detailed in Dealing with files). Both are parts of our Getting started with the web complete beginner's module.<br>
+
+                    <strong>Guides</strong><br>
+                    This module contains the following articles, which will take you through all the basic theory of HTML and provide ample opportunity for you to test out some skills.<br>
+
+                    Getting started with HTML<br>
+                    Covers the absolute basics of HTML, to get you started — we define elements, attributes, and other important terms, and show where they fit in the language. We also show how a typical HTML page is structured and how an HTML element is structured, and explain other important basic language features. Along the way, we'll play with some HTML to get you interested!<br>
+
+                    What's in the head? Metadata in HTML<br>
+
+                    The head of an HTML document is the part that is not displayed in the web browser when the page is loaded. It contains information such as the page tittle, links to CSS (if you want to style your HTML content with CSS), links to custom favicons, and metadata (data about the HTML, such as who wrote it, and important keywords that describe the document).<br>
+
+                    HTML text fundamentals<br>
+                    One of HTML's main jobs is to give text meaning (also known as semantics), so that the browser knows how to display it correctly. This article looks at how to use HTML to break up a block of text into a structure of headings and paragraphs, add emphasis/importance to words, create lists, and more.<br>
+
+                    Creating hyperlinks<br>
+                    Hyperlinks are really important — they are what makes the web a web. This article shows the syntax required to make a link and discusses best practices for links.<br>
+
+                    Advanced text formatting<br>
+                    There are many other elements in HTML for formatting text that we didn't get to in the HTML text fundamentals article. The elements here are less well-known, but still useful to know about. In this article, you'll learn about marking up quotations, description lists, computer code and other related text, subscript and superscript, contact information, and more.<br>
+
+                    Document and website structure<br>
+                    As well as defining individual parts of your page (such as "a paragraph" or "an image"), HTML is also used to define areas of your website (such as "the header," "the navigation menu," or "the main content column.") This article looks into how to plan a basic website structure and how to write the HTML to represent this structure.<br>
+
+                    Debugging HTML<br>
+                    Writing HTML is fine, but what if something goes wrong, and you can't work out where the error in the code is? This article will introduce you to some tools that can help.<br>
+                </p>
+            </section>
+
+            <section class="main-section" id="CSS_first_steps_overview">
+                <header class="header-main">CSS first steps overview</header>
+                <p>
+                    CSS first steps<br>
+                    CSS (Cascading Style Sheets) is used to style and lay out web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.<br>
+
+                    Prerequisites<br>
+                    Before starting this module, you should have:<br>
+                    <ul>
+                        <li>Basic familiarity with using computers, and using the Web passively (i.e. looking at it, consuming the content.)</li>
+                        <li>A basic work environment set up as detailed in Installing basic software, and an understanding of how to create and manage files, as detailed in Dealing with files.</li>
+                        <li>Basic familiarity with HTML, as discussed in the Introduction to HTML module.</li>
+                    </ul>
+                </p>
+                <p>
+                    <br>
+                    Guides<br>
+                    This module contains the following articles, which will take you through all the basic theory of CSS, and provide opportunities for you to test out some skills.<br>
+
+                    What is CSS?<br>
+                    CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the hood? This article explains what CSS is, with a simple syntax example, and also covers some key terms about the language.<br>
+
+                    Getting started with CSS<br>
+                    In this article we will take a simple HTML document and apply CSS to it, learning some practical things about the language along the way.
+                </p>
+            </section>
+
+            <section class="main-section" id="What_is_CSS?">
+                <header class="header-main">What Is CSS?</header>
+                <p>
+                    What is CSS?<br>
+                    CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the hood? This article explains what CSS is, with a simple syntax example, and also covers some key terms about the language.<br>
+                    In the Introduction to HTML module we covered what HTML is, and how it is used to mark up documents. These documents will be readable in a web browser. Headings will look larger than regular text, paragraphs break onto a new line and have space between them. Links are colored and underlined to distinguish them from the rest of the text. What you are seeing is the browser's default styles — very basic styles that the browser applies to HTML to make sure it will be basically readable even if no explicit styling is specified by the author of the page.<br>
+
+                    What is CSS for?<br>
+                    As we have mentioned before, CSS is a language for specifying how documents are presented to users — how they are styled, laid out, etc.<br>
+                    A document is usually a text file structured using a markup language — HTML is the most common markup language, but you may also come across other markup languages such as SVG or XML.<br>
+                    Presenting a document to a user means converting it into a form usable by your audience. Browsers, like Firefox, Chrome, or Edge , are designed to present documents visually, for example, on a computer screen, projector or printer.<br>
+
+                    CSS syntax<br>
+                    CSS is a rule-based language — you define rules specifying groups of styles that should be applied to particular elements or groups of elements on your web page. For example "I want the main heading on my page to be shown as large red text."<br>
+                    The following code shows a very simple CSS rule that would achieve the styling described above:<br>
+    <code>
+        <pre>
+            h1 {
+                color: red;
+                font-size: 5em;
+            }
+        </pre>
+    </code>
+                </p>
+                <p>
+                    The rule opens with a selector . This selects the HTML element that we are going to style. In this case we are styling level one headings ha satu.<br>
+                    We then have a set of curly braces { }. Inside those will be one or more declarations, which take the form of property and value pairs. Each pair specifies a property of the element(s) we are selecting, then a value that we'd like to give the property.<br>
+                    Before the colon, we have the property, and after the colon, the value. CSS properties have different allowable values, depending on which property is being specified. In our example, we have the color property, which can take various color values. We also have the font-size property. This property can take various size units as a value.<br>
+                    A CSS stylesheet will contain many such rules, written one after the other.<br>
+        <code>
+           <pre>
+            h1 {
+                color: red;
+                font-size: 5em;
+            }
+            
+            p {
+                color: black;
+            }
+           </pre>
+        </code>
+                </p>
+            </section>
+
+            <section class="main-section" id="Getting_started_with_CSS">
+                <header class="header-main">Getting Started With CSS</header>
+                <p>
+                    Getting started with CSS<br>
+                    In this article we will take a simple HTML document and apply CSS to it, learning some practical things about the language along the way.<br>
+
+                    Adding CSS to our document<br>
+                    The very first thing we need to do is to tell the HTML document that we have some CSS rules we want it to use. There are three different ways to apply CSS to an HTML document that you'll commonly come across, however, for now, we will look at the most usual and useful way of doing so — linking CSS from the head of your document.<br>
+                    Create a file in the same folder as your HTML document and save it as styles.css. The .css extension shows that this is a CSS file.<br>
+    <code>
+        <pre>
+            p, li {
+                color: green;
+            }
+        </pre>
+    </code>
+                </p>
+            </section>
+
+            <section class="main-section" id="How_CSS_is_structured">
+                <header class="header-main">How CSS Is Structured</header>
+                <p>
+                    How CSS is structured<br>
+                    Now that you are beginning to understand the purpose and use of CSS, let's examine the structure of CSS.<br>
+                    
+                    Applying CSS to HTML<br>
+                    First, let's examine three methods of applying CSS to a document: with an external stylesheet, with an internal stylesheet, and with inline styles.<br>
+
+                    Selectors<br>
+                    A selector targets HTML to apply styles to content. We have already discovered a variety of selectors in the Getting started with CSS tutorial. If CSS is not applying to content as expected, your selector may not match the way you think it should match.<br>
+                    Each CSS rule starts with a selector — or a list of selectors — in order to tell the browser which element or elements the rules should apply to. All the examples below are valid selectors or lists of selectors.<br>
+<code>
+    <pre>
+        h1
+        a:link
+        .manythings
+        #onething
+        *
+        .box p
+        .box p:first-child
+        h1, h2, .intro
+    </pre>
+</code>
+                </p>
+            </section>
+
+            <section class="main-section" id="How_CSS_works">
+                <header class="header-main">How CSS Works</header>
+                <p>
+                    How CSS works<br>
+                    We have learned the basics of CSS, what it is for and how to write simple stylesheets. In this lesson we will take a look at how a browser takes CSS and HTML and turns that into a webpage.<br>
+
+                    How does CSS actually work?<br>
+                    When a browser displays a document, it must combine the document's content with its style information. It processes the document in a number of stages, which we've listed below. Bear in mind that this is a very simplified version of what happens when a browser loads a webpage, and that different browsers will handle the process in different ways. But this is roughly what happens.<br>
+                    <ul>
+                        <li>The browser loads the HTML (e.g. receives it from the network).</li>
+                        <li>It converts the HTML into a DOM (Document Object Model). The DOM represents the document in the computer's memory. The DOM is explained in a bit more detail in the next section.</li>
+                        <li>The browser then fetches most of the resources that are linked to by the HTML document, such as embedded images and videos ... and linked CSS! JavaScript is handled a bit later on in the process, and we won't talk about it here to keep things simpler.</li>
+                        <li>The browser parses the fetched CSS, and sorts the different rules by their selector types into different "buckets", e.g. element, class, ID, and so on. Based on the selectors it finds, it works out which rules should be applied to which nodes in the DOM, and attaches style to them as required (this intermediate step is called a render tree).</li>
+                        <li>The render tree is laid out in the structure it should appear in after the rules have been applied to it.</li>
+                        <li>The visual display of the page is shown on the screen (this stage is called painting).</li>
+                    </ul>
+                </p>
+            </section>
+
+            <section class="main-section" id="Using_your_new_knowledge">
+                <header class="header-main">Using Your New Knowledge</header>
+                <p>
+                    Using your new knowledge<br>
+                    With the things you have learned in the last few lessons you should find that you can format simple text documents using CSS to add your own style to them. This assessment gives you a chance to do that.<br>
+                    
+                    Starting point<br>
+                    You can work in the live editor below, or you can download the starting point file to work with in your own editor. This is a single page containing both the HTML and the starting point CSS (in the head of the document). If you prefer you could move this CSS to a separate file when you create the example on your local computer. Alternatively use an online tool such as CodePen, jsFiddle, or Glitch to work on the tasks.<br>
+                    
+                    Working with CSS<br>
+                    The following live example shows a biography, which has been styled using CSS. The CSS properties that I have used are as follows — each one links to its property page on MDN, which will give you more examples of its use.<br>
+                    <ul>
+                        <li>font-family</li>
+                        <li>color</li>
+                        <li>border-bottom</li>
+                        <li>font-weight</li>
+                        <li>font-size</li>
+                        <li>font-style</li>
+                        <li>text-decoration</li>
+                    </ul>
+                </p>
+            </section>
+        </main>
+    </div>
+
+   <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
